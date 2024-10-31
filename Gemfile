@@ -23,7 +23,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.66.0'
   gem 'rubocop-minitest'
   gem 'rubocop-rake'
 end
